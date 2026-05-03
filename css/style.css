@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+/ */
+
+body {
+    margin: 2px;
+}
+
+.mainTitle h1 {
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.4rem;
+    color: rgb(255, 244, 244);
+    text-shadow: 3px 0.5px 0px black;
+    margin-bottom: 3px;
+}
+
+.mainTitle figcaption {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: rgb(255, 244, 244);
+}
+
+header {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: rgb(23, 20, 35);
+
+}
+
+header .heroTitle {
+    display: flex;
+    align-items: center;
+
+}
+
+.headerPicture img {
+    width: 30vw;
+    margin: 20px;
+    border-radius: 15px;
+
+
+
+}
