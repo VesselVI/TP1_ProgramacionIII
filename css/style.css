@@ -34,6 +34,10 @@ body {
     color: rgb(255, 244, 244);
 }
 
+.mainTitle {
+    margin: 3vw;
+}
+
 header {
     justify-content: space-around;
     display: flex;
@@ -54,5 +58,62 @@ header .heroTitle {
     border-radius: 15px;
 
 
+
+}
+
+body {
+    background-color: rgb(27, 20, 55);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1vw;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+
+
+
+.card {
+    border-style: solid;
+    padding: 1rem;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(247, 245, 245);
+    background-color: rgb(37, 12, 54);
+}
+
+.card p {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 1px 1px 3px black;
+}
+
+article {
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(247, 245, 245);
+    background-color: rgb(37, 12, 54);
+
+}
+
+article h2 {
+    padding: 2rem;
+    margin: 2rem;
+    color: aliceblue;
+    text-shadow: 1px 1px 3px black;
+}
+
+article ul {
+    padding: 2rem;
+    margin: 2rem;
+    color: aliceblue;
+    text-shadow: 1px 1px 3px black;
 
 }
